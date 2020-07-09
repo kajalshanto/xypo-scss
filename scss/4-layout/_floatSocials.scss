@@ -1,0 +1,35 @@
+.social-icons {
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+
+    img {
+        display: block;
+        width: 20px;
+        margin: 0 auto;
+        padding: 8px 0;
+        cursor: pointer;
+    }
+
+    .vertical {
+        border-left: 2px solid black;
+        height: 120px;
+        position: absolute;
+        left: 50%;
+        top: -100%;
+    }
+
+    .vertical2 {
+        text-orientation: mixed;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        height: 120px;
+        position: absolute;
+        left: 36%;
+        bottom: -100%;
+        font-weight: 600;
+    }
+}

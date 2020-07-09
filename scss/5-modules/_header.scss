@@ -1,0 +1,22 @@
+#header {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/background.png');
+    background-position: center;
+    background-size: cover;
+
+    .brand-image {
+        margin-top: 30px;
+        width: 10%;
+    }
+
+    .header-text {
+        max-width: 350px;
+        margin-top: 140px;
+
+        button {
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+    }
+}

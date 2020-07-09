@@ -1,0 +1,24 @@
+.line{
+    line-height: 8px;
+
+    .line-1{
+    width: 15px;
+    height: 15px;
+    background-color: $theme-pink;
+    display: inline-block;
+    }
+
+    .line-2{
+        width: 80px;
+        height: 1px;
+        background-color: $theme-pink;
+        display: inline-block;
+    }
+
+    .line-3{
+        width: 60px;
+        height: 1px;
+        background-color: $theme-pink;
+        display: inline-block;
+    }
+}

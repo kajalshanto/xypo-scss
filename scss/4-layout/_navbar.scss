@@ -1,0 +1,31 @@
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background-color: $theme-pink;
+    z-index: 2;
+    transition: .4s;
+
+    ul{
+        li{
+            list-style: none;
+            margin: 50px 20px;
+
+            a{
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}

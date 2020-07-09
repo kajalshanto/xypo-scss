@@ -1,0 +1,3 @@
+@mixin sectionPadding($x, $y:0) {
+    padding: $x $y;
+}

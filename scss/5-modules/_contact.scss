@@ -1,0 +1,43 @@
+.contact {
+    @include sectionPadding(100px);
+
+    .contact-row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .contact-left-col,
+        .contact-right-col {
+            flex-basis: 50%;
+        }
+
+        .contact-left-col {
+            form {
+                max-width: 370px;
+                margin: 30px 0;
+
+                input {
+                    width: 94%;
+                    padding: 12px 10px;
+                    margin-bottom: 5px;
+                    outline: none;
+                    box-shadow: border-box;
+                    border: 2px solid $light-pink;
+                    flex-wrap: wrap;
+                }
+
+                .button-box {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 15px;
+
+                    button {
+                        flex-basis: 48%;
+                        padding: 18px 0;
+                    }
+                }
+            }
+        }
+    }
+}

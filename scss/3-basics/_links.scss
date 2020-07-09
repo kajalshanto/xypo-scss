@@ -1,0 +1,13 @@
+a {
+    outline: none;
+    border: none;
+}
+
+a:focused {
+    outline: none;
+    border: none;
+}
+
+a:active {
+    color: red;
+}

@@ -1,0 +1,26 @@
+.course {
+    @include sectionPadding(80px);
+
+    .course-row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .course-left-col {
+            flex-basis: 50%;
+
+            .course-text {
+                max-width: 350px;
+
+                button {
+                    margin: 30px 0;
+                    text-transform: capitalize;
+                }
+            }
+        }
+
+        .course-right-col {
+            flex-basis: 50%;
+        }
+    }
+}
