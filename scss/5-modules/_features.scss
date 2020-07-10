@@ -1,7 +1,7 @@
-.features{
+#features {
     padding: 50px 0;
 
-    &-row{
+    .features-row {
         width: 80%;
         margin: auto;
         display: flex;
@@ -9,25 +9,28 @@
         justify-content: space-around;
         flex-wrap: wrap;
 
-        .features-col{
+        .features-col {
             flex-basis: 30%;
             text-align: center;
-            img{
+
+            img {
                 width: 100px;
             }
-            h4{
+
+            h4 {
                 margin-bottom: 15px;
                 font-size: 20px;
                 font-weight: 400;
             }
         }
-        .features-btn{
+
+        .features-btn {
             margin: 80px auto 0;
             display: flex;
             align-items: flex-end;
             justify-content: center;
 
-            .line{
+            .line {
                 text-align: right;
                 display: inline-block;
                 margin-right: 25px;
@@ -35,4 +38,3 @@
         }
     }
 }
-

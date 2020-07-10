@@ -1,0 +1,241 @@
+/*****************************************
+****  Responsive for large mobile devices
+******************************************/
+
+@include media('>phone', '<=425px', 'retina2x') {
+    .wrapper {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .btn-primary {
+        padding: 10px 18px;
+    }
+
+    #menuBtn {
+        width: 40px;
+        right: 50px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #header {
+        background-image: none;
+
+        .brand-image {
+            margin-top: 27px;
+            width: 70px;
+        }
+
+        .header-text {
+            margin-top: 100px;
+
+            h1 {
+                font-size: 27px;
+            }
+
+            p {
+                text-align: justify;
+            }
+
+            button {
+                margin-top: 20px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    .social-icons {
+
+        img {
+            width: 14px;
+            margin: 5px auto;
+        }
+
+        .vertical {
+            height: 120px;
+            left: 45%;
+            top: -100%;
+        }
+
+        .vertical2 {
+            left: 30%;
+            bottom: -80%;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    #about,
+    #offer {
+        @include sectionPadding(40px);
+
+        .about-left-col,
+        .about-right-col {
+            flex-basis: 100%;
+        }
+
+        .about-right-col {
+
+            .about-text {
+                margin: 50px 50px 0;
+
+                h2 {
+                    font-size: 20px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                }
+
+                button {
+                    margin: 30px 0;
+                }
+            }
+        }
+    }
+
+    #features {
+        padding: 50px 0;
+
+        .features-row {
+
+            .features-col {
+                flex-basis: 100%;
+
+                img {
+                    width: 70px;
+                }
+            }
+
+            .features-btn {
+                margin: 50px auto 0;
+
+                .line {
+                    margin-right: 25px;
+                }
+            }
+        }
+    }
+
+    #course {
+        @include sectionPadding(50px);
+
+        .course-row {
+
+            .course-left-col {
+                flex-basis: 100%;
+
+                .course-text {
+
+                    button {
+                        margin: 30px 0;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .course-right-col {
+                flex-basis: 100%;
+                margin-top: 70px;
+            }
+        }
+    }
+
+    #contact {
+        @include sectionPadding(50px);
+
+        .contact-row {
+
+            .contact-left-col,
+            .contact-right-col {
+                flex-basis: 100%;
+            }
+
+            .contact-left-col {
+
+                form {
+                    margin: 30px auto;
+
+                    input {
+                        width: 94%;
+                        padding: 2%;
+                    }
+
+                    .button-box {
+                        width: 100%;
+
+                        button {
+                            padding: 10px 18px;
+                        }
+                    }
+                }
+            }
+
+            .contact-right-col {
+                padding-top: 50px;
+            }
+        }
+    }
+
+    #footer {
+        text-align: center;
+
+        .footer-row {
+
+            .footer-left-col {
+                flex-basis: 100%;
+
+                .link-items {
+
+                    .footer-links {
+                        flex-basis: 50%;
+                        margin-bottom: 25px;
+
+                        h4 {
+                            margin-bottom: 20px;
+                        }
+
+                        small {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            .footer-right-col {
+                flex-basis: 100%;
+
+                .footer-info {
+
+                    .copyright-text {
+                        flex-basis: 60%;
+
+                        small {
+                            font-size: 14px;
+                            margin-top: 12px;
+                        }
+                    }
+
+                    .footer-logo {
+                        flex-basis: 35%;
+
+                        img {
+                            width: 50px;
+                        }
+
+                        button {
+                            padding: 12px 25px;
+                            margin-top: 20px;
+                            font-size: 10px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+}

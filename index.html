@@ -18,9 +18,13 @@
     <!-- Meta tags for SEO ends-->
 
     <!-- Favicons -->
-
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <!-- Site Title -->
     <title>Xypo</title>
+    <!-- Smooth-Scroll -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js">
+    </script>
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/main.css">
@@ -51,12 +55,12 @@
         <!-- main navigation -->
         <nav id="sideNav">
             <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about us</a></li>
-                <li><a href="#">features</a></li>
-                <li><a href="#">courses</a></li>
-                <li><a href="#">offer</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#header">home</a></li>
+                <li><a href="#about">about us</a></li>
+                <li><a href="#features">features</a></li>
+                <li><a href="#course">courses</a></li>
+                <li><a href="#offer">offer</a></li>
+                <li><a href="#contact">contact</a></li>
 
             </ul>
         </nav>
@@ -68,7 +72,7 @@
     <!-- header end -->
 
     <!-- about section -->
-    <section class="about">
+    <section id="about">
         <div class="about-left-col">
             <img src="images/about.png" alt="about">
         </div>
@@ -95,7 +99,7 @@
     <!-- about section end-->
 
     <!-- features section -->
-    <section class="features">
+    <section id="features">
         <div class="features-row">
             <div class="features-col">
                 <img src="images/pic-1.png" alt="">
@@ -126,7 +130,7 @@
     <!-- features section end-->
 
     <!-- course section -->
-    <section class="course">
+    <section id="course">
         <div class="wrapper course-row">
             <div class="course-left-col">
                 <div class="course-text">
@@ -153,7 +157,7 @@
     <!-- course section end-->
 
     <!-- offer section -->
-    <section class="offer">
+    <section id="offer">
         <div class="about-left-col">
             <img src="images/offer.png" alt="about">
         </div>
@@ -177,7 +181,7 @@
     <!-- offer section end-->
 
     <!-- contact section -->
-    <section class="contact">
+    <section id="contact">
         <div class="wrapper contact-row">
             <div class="contact-left-col">
                 <h1>Sign up to our <br>Learning comminuty</h1>
@@ -197,7 +201,7 @@
                     <span class="line-3"></span><br>
                 </div>
             </div>
-            <div class="contact-left-col">
+            <div class="contact-right-col">
                 <img src="images/contact.png" alt="contact image">
             </div>
         </div>
@@ -267,7 +271,7 @@
 
 
 
-    <!-- Additional JS -->
+    <!-- Main JS -->
     <script src="js/main.js"></script>
 </body>
 

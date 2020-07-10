@@ -1,0 +1,169 @@
+/*****************************************
+****  Responsive betwen tab and laptop
+******************************************/
+@include media('>=tablet', '<=1024px') {
+    .wrapper {
+        margin-right: 70px;
+        margin-left: 70px;
+    }
+
+    .btn-primary {
+        padding: 12px 18px;
+    }
+
+    #menuBtn {
+        width: 40px;
+        right: 60px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    #header {
+        height: 80vh;
+
+        .brand-image {
+            width: 80px;
+        }
+
+        .header-text {
+            margin-top: 100px;
+
+            h1 {
+                font-size: 26px;
+            }
+
+            p {
+                text-align: justify;
+                font-weight: 600;
+            }
+        }
+    }
+
+    #about,
+    #offer {
+        @include sectionPadding(40px);
+
+        .about-right-col {
+
+            .about-text {
+                margin: 50px 50px 0 0;
+
+                h2 {
+                    font-size: 20px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                }
+
+                button {
+                    margin: 30px 0;
+                }
+            }
+        }
+    }
+
+    #contact {
+        @include sectionPadding(50px);
+
+        .contact-row {
+
+            .contact-left-col {
+
+                form {
+
+                    .button-box {
+                        width: 100%;
+
+                        button {
+                            padding: 10px 18px;
+                        }
+                    }
+                }
+            }
+
+            .contact-right-col {
+                flex-basis: 45%;
+                margin-left: 5%;
+            }
+        }
+    }
+
+    #footer {
+
+        .footer-row {
+
+            .footer-left-col {
+                flex-basis: 70%;
+
+                .link-items {
+
+                    .footer-links {
+                        flex-basis: 50%;
+                        margin-bottom: 25px;
+
+                        h4 {
+                            margin-bottom: 20px;
+                        }
+
+                        small {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            .footer-right-col {
+                flex-basis: 30%;
+
+                .footer-info {
+
+                    .copyright-text {
+                        flex-basis: 100%;
+
+                        small {
+                            font-size: 14px;
+                        }
+                    }
+
+                    .footer-logo {
+
+                        img {
+                            width: 50px;
+                        }
+
+                        button {
+                            margin-top: 20px;
+                            font-size: 10px;
+                        }
+                    }
+                }
+
+            }
+
+
+
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+// @include media('>=tablet', '<desktop') {
+//     .wrapper {
+//         margin-right: 70px;
+//         margin-left: 70px;
+//     }
+
+
+// }

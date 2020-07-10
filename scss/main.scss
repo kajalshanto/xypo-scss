@@ -16,7 +16,6 @@
 
 // 4 - LAYOUTS  { using over and over again like: nav and footer } 
 @import '4-layout/navbar';
-@import '4-layout/footer';
 @import '4-layout/floatSocials';
 
 // 5 - MODULES { small reusing code in class }
@@ -27,5 +26,13 @@
 @import '5-modules/course';
 @import '5-modules/contact';
 
+// import footer from 4-Layouts 
+@import '4-layout/footer';
+
 
 //6 - RESPONSIVES
+@import '6-responsive/breakpoints';
+@import '6-responsive/mobile';
+@import '6-responsive/mobileLarge';
+@import '6-responsive/tab';
+@import '6-responsive/4kdisplay';

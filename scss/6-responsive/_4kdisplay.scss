@@ -1,0 +1,115 @@
+/*****************************************
+****  Responsive very large and 4K devices
+******************************************/
+
+@include media('>desktop', '<=2560px') {
+
+
+    #menuBtn {
+        width: 60px;
+        right: 50px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    .btn-primary {
+        padding: 20px 38px;
+    }
+
+    .square {
+        width: 24px;
+        height: 24px;
+        margin: 15px 0;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .line {
+        line-height: 16px;
+
+        .line-1 {
+            width: 24px;
+            height: 24px;
+            background-color: $theme-pink;
+            display: inline-block;
+        }
+
+        .line-2 {
+            width: 120px;
+            height: 1px;
+            background-color: $theme-pink;
+            display: inline-block;
+        }
+
+        .line-3 {
+            width: 90px;
+            height: 1px;
+            background-color: $theme-pink;
+            display: inline-block;
+        }
+    }
+
+    #header {
+
+        .brand-image {
+            margin-top: 30px;
+            width: 120px;
+        }
+
+        .header-text {
+            max-width: 550px;
+            margin-top: 130px;
+
+            h1 {
+                font-size: 48px;
+            }
+
+            p {
+                text-align: justify;
+            }
+
+            button {
+                margin-top: 40px;
+                margin-bottom: 60px;
+            }
+        }
+    }
+
+    .social-icons {
+
+        img {
+            width: 24px;
+            margin: 20px auto;
+        }
+
+        .vertical {
+            height: 190px;
+            left: 50%;
+            top: -90%;
+        }
+
+        .vertical2 {
+            left: 35%;
+            bottom: -60%;
+            font-size: 16px;
+        }
+    }
+
+    #about,
+    #offer {
+        @include sectionPadding(120px);
+
+        .about-right-col {
+
+            .about-text {
+                max-width: 650px;
+            }
+        }
+    }
+
+}
