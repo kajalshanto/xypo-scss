@@ -1,5 +1,5 @@
 #features {
-    padding: 50px 0;
+    @include sectionPadding(50px);
 
     .features-row {
         width: 80%;

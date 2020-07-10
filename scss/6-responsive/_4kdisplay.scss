@@ -112,4 +112,105 @@
         }
     }
 
+    #features {
+        @include sectionPadding(100px);
+
+        .features-row {
+
+            .features-col {
+
+                img {
+                    width: 140px;
+                }
+
+                h4 {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    #course {
+        @include sectionPadding(100px);
+
+        .course-row {
+
+            .course-left-col {
+                flex-basis: 50%;
+
+                .course-text {
+                    max-width: 650px;
+                }
+            }
+        }
+    }
+
+    #contact {
+        @include sectionPadding(100px);
+
+        .contact-row {
+
+            .contact-left-col {
+                form {
+                    max-width: 600px;
+                    margin: 30px 0;
+
+                    input {
+                        width: 96%;
+                        padding: 16px 10px;
+                    }
+
+                    .button-box {
+                        margin-top: 25px;
+
+                        button {
+                            flex-basis: 48%;
+                            padding: 18px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #footer {
+        padding: 50px 0 30px;
+
+        .footer-row {
+
+            .footer-right-col {
+
+                .footer-info {
+
+                    .copyright-text,
+                    .footer-logo {
+                        flex-basis: 40%;
+                    }
+
+                    .copyright-text {
+                        padding-bottom: 30px;
+
+                        small {
+                            font-size: 18px;
+                            line-height: 25px;
+                        }
+                    }
+
+                    .footer-logo {
+                        img {
+                            width: 100px;
+                        }
+
+                        button {
+                            padding: 16px 40px;
+                            margin-top: 20px;
+                            font-size: 18px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
 }
